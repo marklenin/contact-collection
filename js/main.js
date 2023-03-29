@@ -34,13 +34,7 @@ function loop() {
 btn.addEventListener("click", (event) => {
   event.preventDefault();
 
-  if (
-    !name.value.trim() ||
-    !phone.value.trim() ||
-    !image.value.trim() ||
-    !image.value.includes("http") ||
-    !image.value.includes("image")
-  ) {
+  if (!name.value.trim() || !phone.value.trim() || !image.value.trim()) {
     // check the input content
     alert("fill all inputs && third input is for images(url link)...)");
     return;
