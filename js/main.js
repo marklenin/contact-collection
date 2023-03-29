@@ -82,9 +82,9 @@ function edit(index) {
   modalUrl.value = data[index].image;
   modalUrl.setAttribute("id", index);
 
-  console.log(data[index].name);
-  console.log(data[index].phone);
-  console.log(data[index].image);
+  // console.log(data[index].name);
+  // console.log(data[index].phone);
+  // console.log(data[index].image);
 }
 
 closeModal.addEventListener("click", () => {

@@ -142,8 +142,8 @@ body {
 #container {
   display: flex;
   flex-wrap: wrap;
-  gap: 3em;
-  width: 39%;
+  gap: 3.3em;
+  width: 47%;
 }
 
 .cardcard {
